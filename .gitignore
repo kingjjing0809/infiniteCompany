@@ -1,0 +1,21 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.venv/
+
+# Large generated media outputs
+generator/output/
+generator/temp_*/
+
+# Downloaded heavy assets (can be re-downloaded using setup_assets.py)
+generator/assets/bg/
+generator/assets/fonts/
+
+# Temp media files
+*.mp3
+*.png
+*.mp4
+temp-audio.m4a
