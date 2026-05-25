@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigravity</title>
+    <link rel="stylesheet" href="sidepanel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Antigravity</h1>
+            <p>현재 페이지를 저장하세요</p>
+        </div>
+
+        <div class="card">
+            <div class="field-label">제목</div>
+            <div id="page-title" class="field-value">Loading...</div>
+            
+            <div class="field-label">URL</div>
+            <div id="page-url" class="field-value text-small">Loading...</div>
+        </div>
+
+        <button id="send-btn" class="primary-btn">
+            안티그래비티로 전송
+        </button>
+
+        <div id="status-message" class="status hidden"></div>
+    </div>
+    <script src="sidepanel.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "Antigravity Side Panel",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Send current page to Antigravity.",
+  "permissions": [
+    "sidePanel",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open Antigravity Panel"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}

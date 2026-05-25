@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "A very cute pomodoro timer.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Pomodoro Timer"
+  }
+}
